@@ -98,12 +98,45 @@
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
         grid-template-rows: 350px 1fr;
-        /* grid-template-areas: ; */
-
-        column-gap: 87px;
-        row-gap: 86px;
     }
 
+    /* #container {
+        margin-top: 50px;        
+        display: grid;
+        grid-template-columns: 80% 60%;
+        grid-template-rows: 271px 200px;
+        grid-template-areas:
+        "logo-container hero-image"
+        "buttons-container total-connections";
+
+    }
+
+    .logo-container {
+        text-align: start;
+        padding-top: 50px;
+    }
+
+    .logo-container img {
+        width: 355px;        
+    }
+
+    .logo-container h2 {
+        width: 250px;
+        line-height: 30px;
+        font-size: 22px;
+        text-align: -webkit-left;
+    }
+   
+    .buttons-container a {
+        height: 75px;
+    }   
+
+        .total-connections p {
+        font-size: 8px;
+        text-align: right;
+    } */
+
+    
     .logo-container {
         grid-area: proffy;
         text-align: initial;
@@ -112,7 +145,7 @@
     }
 
     .logo-container img {
-        height: 127px;
+        height: 7rem;
     }
 
     .hero-image {
